@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Harness Scraper</title>
+</head>
+<body>
+  <h2>Data Scraper</h2>
+  <form method="POST" action="/scrape">
+    <label>URL:</label><br>
+    <input type="text" name="url" placeholder="https://..." size="60" required /><br><br>
+
+    <label>Fields to Extract (comma separated, leave empty for only Name):</label><br>
+    <input type="text" name="fields" placeholder="Foal Date, Colour, Sex, Sire" size="60" /><br><br>
+
+    <button type="submit">Scrape</button>
+  </form>
+</body>
+</html>
